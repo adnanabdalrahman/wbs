@@ -13,31 +13,35 @@
     <main>
         <form action="#" method="post">
             <fieldset>
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" required>
-            </fieldset>             
-            <fieldset>
+                <legend>Contact Info</legend>
+                <div>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="email" required>
+                </div>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-            </fieldset>             
-            <fieldset>
+                <div>
+                    <label for="telephone">Password</label>
+                    <input type="tel" id="telephone" name="telephone"  placeholder="telephone" required>
+                </div>
 
-                <label for="telephone">Password</label>
-                <input type="tel" id="telephone" name="telephone" required>
-            </fieldset>             
-            <fieldset>
-                <label for="bootcamp">bootcamp </label>
-                <select id="bootcamp" name="bootcamp">
-                    <option value="bootcamp1">bootcamp1</option>
-                    <option value="bootcamp2">bootcamp2</option>
-                    <option value="bootcamp3">bootcamp3</option>
-                    <option value="bootcamp4">bootcamp4</option>
-                    <option value="bootcamp5">bootcamp5</option>
-                </select>
-            </fieldset>             
-            <fieldset>
-                <input type="submit" value="Sign Up">
+                <div>
+                    <label for="bootcamp">bootcamp </label>
+                    <select id="bootcamp" name="bootcamp" placeholder="">
+                        <option value="">bootcamp</option>
+                        <option value="bootcamp1">bootcamp1</option>
+                        <option value="bootcamp2">bootcamp2</option>
+                        <option value="bootcamp3">bootcamp3</option>
+                        <option value="bootcamp4">bootcamp4</option>
+                        <option value="bootcamp5">bootcamp5</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="submit" value="Sign Up">
+                </div>
             </fieldset>             
         </form>
     </main>
